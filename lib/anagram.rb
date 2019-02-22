@@ -11,7 +11,7 @@ class Anagram
    array_of_words = array.sort
    array_of_words.each do |words|
      if @word == words
-
+       match_array << words
      else
 
      end
