@@ -7,7 +7,7 @@ class Anagram
   end
 
   def match(array)
-   array_of_words = %w(array)
+   array_of_words = array.sort
 
   end
 
