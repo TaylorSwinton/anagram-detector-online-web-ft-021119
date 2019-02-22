@@ -13,8 +13,8 @@ class Anagram
      if @word.split("").sort == words.split("").sort
        match_array << words
      end
-    match_array
    end
+   match_array
   end
 
 end
