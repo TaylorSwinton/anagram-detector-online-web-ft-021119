@@ -8,7 +8,9 @@ class Anagram
 
   def match(array)
    array_of_words = array.sort
-
+   array_of_words.each do |words|
+     @word == words
+   end
   end
 
 end
