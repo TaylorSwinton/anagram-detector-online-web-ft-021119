@@ -8,7 +8,7 @@ class Anagram
 
   def match(array)
    array_of_words = %w(array)
-   
+
   end
 
 end
